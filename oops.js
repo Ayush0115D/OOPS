@@ -21,8 +21,8 @@ const karanArjun={
     console.log("tax rate is 20%");
     },
 };
-//classes
 karanArjun.__proto__ =employee;
+//classes
 class ToyataCar{
     constructor(brand,mileage){
         console.log("creating new object");
@@ -92,6 +92,7 @@ class engineer extends person{
 // let engObj = new engineer("computer science and engg.");
 let engObj = new engineer("shradha");
 // let amanObj=new doctor();
+//Ques.
  let DATA="secret information";
 class user{
     constructor(name,email){
