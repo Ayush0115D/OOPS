@@ -1,3 +1,5 @@
+//PROTOTYPE
+// =>
 // const student={
 //     fullname : "shradha khapra",
 //     marks:94,
@@ -7,7 +9,7 @@
 // };
 // prototype phle se bna hota he,hamre jitne bhi obj hote js me wo  
 //prototype objects se kuch kuch properties or methods inherit krte
-// KOI BHI OBJ JO JS ME  HOTE USKE BY DEFAULT PROTOTYPE OBJ HOTE H
+// KOI BHI OBJ JO JS ME  HOTE USKE BY DEFAULT PROTOTYPE OBJ HOTE H..like .push etc
 const employee={ //prototype
     calcTax() {
         console.log("tax rate is 10%");
@@ -19,6 +21,7 @@ const karanArjun={
     console.log("tax rate is 20%");
     },
 };
+//classes
 karanArjun.__proto__ =employee;
 class ToyataCar{
     constructor(brand,mileage){
@@ -48,6 +51,7 @@ class parent{
         
     }
 }
+//Inheritance
 class child extends parent{}
 let obj=new child();
 class person{
